@@ -21,7 +21,7 @@ As for telemetry data, the EPS outputs a - 43 bit frame - to the OBC sectioned a
 | 8 cell Battery voltage (4S2P arrangement)      | 5             | 0 to 32 (integer value for voltage range - for a maximum output of 4V per cell, the highest yield should be 16V) |
 | Tail                                           | 8             | 13(valid frame ending identifier constant)  |
 
-Whereas the EPS receives a - 22 bit frame - from the OBC that consists of the following information;
+Whereas the EPS receives a - 26 bit frame - from the OBC that consists of the following information;
 | Packet Section                                 | Bit width     | Possible values/ (Meaning or representation)|
 | -------------                                  | ------------- | --------------                              |
 | Header                                         | 9             | 55(valid frame identifier starting constant)|
