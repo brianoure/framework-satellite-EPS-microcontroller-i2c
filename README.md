@@ -30,3 +30,4 @@ Whereas the EPS receives a - 48 bit frame - from the OBC that consists of the fo
 | Communication subsystem component (Xband) state| 8             | 149(turn Xband ON) or 87(turn Xband OFF)          |
 | Tail                                           | 8             | 135(valid frame ending identifier constant)       |
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
