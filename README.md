@@ -7,7 +7,7 @@ Each I2C channel requires three lines - 2 signal (i.e SDA and SCL) and 1 ground 
 enable transmission and reception of packets between the OBC and the EPS respective microcontrollers.
 
 As for telemetry data, the EPS outputs a - 56 bit frame - to the OBC sectioned as follows;
-| Packet Section                                 | Bit width     | Possible values (Meaning or representation)        |
+| Packet Section                                 | Bit width     | Possible Decimal Values (Meaning or representation)|
 | -------------                                  | ------------- | --------------                                     |
 | Header                                         | 8             | 195(valid frame identifier starting constant)      |
 | Payload subsystem state                        | 2             | 1(Payload is ON) or 0(Payload is OFF)              |
@@ -22,7 +22,7 @@ As for telemetry data, the EPS outputs a - 56 bit frame - to the OBC sectioned a
 | Tail                                           | 8             | 135(valid frame ending identifier constant)        |
 
 Whereas the EPS receives a - 48 bit frame - from the OBC that consists of the following information;
-| Packet Section                                 | Bit width     | Possible values/ (Meaning or representation)      |
+| Packet Section                                 | Bit width     | Possible Decimal Values/ (Meaning or representation)|
 | -------------                                  | ------------- | --------------                                    |
 | Header                                         | 16            | 34539(valid frame identifier starting constant)   |
 | Payload subsystem state                        | 8             | 197(turn payload ON) or 245(turn payload OFF)     |
