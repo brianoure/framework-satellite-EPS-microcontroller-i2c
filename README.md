@@ -32,4 +32,4 @@ Whereas the EPS receives a - 48 bit frame - from the OBC that consists of the fo
 
 The image below illustrates the connections
 ![How the EPS and OBC microcontrollers connect] (/I2C_EPS_OBC_connection_github_model.png?raw=true)
-![How the EPS and OBC microcontrollers connect](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![How the EPS and OBC microcontrollers connect](https://github.com/brianoure/satellite-EPS-microcontroller/blob/[branch]/image.jpg?raw=true)
