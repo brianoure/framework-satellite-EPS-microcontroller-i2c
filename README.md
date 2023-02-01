@@ -30,4 +30,5 @@ Whereas the EPS receives a - 48 bit frame - from the OBC that consists of the fo
 | Communication subsystem component (Xband) state| 8             | 149(turn Xband ON) or 87(turn Xband OFF)          |
 | Tail                                           | 8             | 135(valid frame ending identifier constant)       |
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+THe image below represents the intended connections
+![How the EPS and OBC microcontrollers connect] (https://github.com/brianoure/satellite-EPS-microcontroller-i2c/blob/main/I2C%20connection%20between%20EPS%20and%20OBC%20microcontrollers.png)
