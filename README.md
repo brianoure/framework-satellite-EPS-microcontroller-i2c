@@ -31,4 +31,4 @@ Whereas the EPS receives a - 48 bit frame - from the OBC that consists of the fo
 | Tail                                           | 8             | 135(valid frame ending identifier constant)       |
 
 THe image below represents the intended connections
-![How the EPS and OBC microcontrollers connect] (https://github.com/brianoure/satellite-EPS-microcontroller-i2c/blob/main/I2C%20connection%20between%20EPS%20and%20OBC%20microcontrollers.png)
+![How the EPS and OBC microcontrollers connect] (I2C_EPS_OBC_connection_github_model.png)
