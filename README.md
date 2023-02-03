@@ -1,5 +1,5 @@
-# satellite-EPS-microcontroller-i2c
-A satellite Electrical Power Subsystem (EPS) microcontroller program written in Python.<br />
+# framework-satellite-EPS-microcontroller-i2c
+A framework satellite Electrical Power Subsystem (EPS) microcontroller program written in Python (The code can be customised/translated targeting a specific microcontroller).<br />
 <br />
 In this case satellite system, the EPS microntroller communicates with the On Board Computer (OBC) microcontroller using the I2C protocol.<br />
 <br />
